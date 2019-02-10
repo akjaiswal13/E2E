@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+fl=$1
+
+if [ -z "$fl" ]
+then
+	clear	
+	python src/main.py ''
+else
+	clear
+	python src/main.py $fl
+fi
+
